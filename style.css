@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 15px;
+   /* border: 5px solid red; */
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+main{
+    width: 60%;
+    margin: auto;
+   /* border: 1px solid black; */
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cards{
+    max-width: 33%;
+    height: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards img{
+    width: 30%;
+
+}
+
+.cards h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.cards p{
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.5rem;
+    width: 80%;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+/*card-1 */
+#card-1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#card-1 button{
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 80%;
+
+}
+
+/* card-2 */
+#card-2{
+    background-color: hsl(184, 100%, 22%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#card-2 button{
+    color:  hsl(184, 100%, 22%);
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 80%;
+
+
+}
+
+/* card-3 */
+#card-3{
+    background-color:  hsl(179, 100%, 13%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#card-3 button{
+    color:  hsl(179, 100%, 13%);
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 80%;
+}
